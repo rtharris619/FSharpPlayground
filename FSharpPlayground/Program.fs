@@ -1,4 +1,5 @@
-﻿
+﻿// Page 21 of 1930
+
 [1..100] |> List.sum |> printfn "sum=%d"
 
 let square x = x * x
