@@ -6,10 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="ShellScriptExample.fsx" />
+    <None Include="Scripts\FSharpSyntax.fsx" />
+    <None Include="Scripts\ShellScriptExample.fsx" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
 </Project>
