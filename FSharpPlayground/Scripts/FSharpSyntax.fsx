@@ -54,3 +54,28 @@ let optionPatternMatch input =
 optionPatternMatch validValud
 optionPatternMatch invalidValue
 
+// Complex Data Types
+
+let twoTuple = 1, 2
+let threeTuple = "a", 2, true
+
+type Person = {First:string; Last:string}
+let person1 = {First="john"; Last="Doe"}
+
+type Temp = 
+    | DegreesC of float
+    | DegreesF of float
+let temp = DegreesF 98.6
+
+type Employee =
+    | Worker of Person
+    | Manager of Employee list
+let jDoe = {First="John"; Last="Doe"}
+let worker = Worker jDoe
+
+// Printing
+
+printfn "Printing an int %i, a float %f, a bool %b" 1 2.0 true
+printfn "A string %s, and something generic %A" "hello" [1;2;3;4]
+printfn "twoTuple=%A, \nPerson=%A, \nTemp=%A, \nEmployee=%A" twoTuple person1 temp worker
+
