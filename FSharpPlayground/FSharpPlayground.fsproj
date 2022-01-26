@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Scripts\QuickSort.fsx" />
     <None Include="Scripts\FSharpSyntax.fsx" />
     <None Include="Scripts\ShellScriptExample.fsx" />
     <Compile Include="Program.fs" />
