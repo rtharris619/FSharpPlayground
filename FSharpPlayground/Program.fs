@@ -1,4 +1,4 @@
-﻿// Page 138 of 1930
+﻿// Page 143 of 1930
 
 [1..100] |> List.sum |> printfn "sum=%d"
 
