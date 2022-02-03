@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Scripts\ExtractingBoilerplate.fsx" />
+    <None Include="Scripts\PatternMatching.fsx" />
     <None Include="Scripts\Download.fsx" />
     <None Include="Scripts\QuickSort.fsx" />
     <None Include="Scripts\FSharpSyntax.fsx" />
